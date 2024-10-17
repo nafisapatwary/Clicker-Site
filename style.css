@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-image: url("BTHS.jpg");
+    font-family: "Lucida Console", "Courier New", monospace; /*change font*/
+    font-weight: bold;
+    text-align: center;
+    /*to avoid image repetition if you have a background image, this will take the entire viewport */
+    height:100vh; 
+}
+
+.container{
+  background: white;
+  opacity: 0.9;
+  max-width: 80%; 
+  margin: auto; /* this helps centering */
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(113, 126, 182); /*add header background color*/
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  /*border: none; */
+  border: 1px solid #211717;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+ background: #090825; /*change color*/
+}
+
+#save-btn {
+  background: #2e3157; /*change color*/
+}
+
+#entries {
+  font-size: 16px;
+}
